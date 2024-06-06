@@ -1,0 +1,72 @@
+@font-face {
+  font-family: spacegrotesk;
+  src: url("../fonts/SpaceGrotesk-Regular.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: spacegrotesk;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid #610595;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.cars {
+  width: 1110px;
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+}
+.cars p {
+  margin-bottom: 10px;
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+}
